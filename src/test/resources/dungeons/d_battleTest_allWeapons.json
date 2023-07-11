@@ -1,0 +1,94 @@
+{
+    "entities": [
+        {
+            "type" : "player",
+            "x" : 2,
+            "y" : 0
+        }, 
+        {
+            "type" : "sword",
+            "x" : 1,
+            "y" : 0
+        }, 
+        {
+            "type" : "wood",
+            "x" : 1,
+            "y" : 1
+        }, 
+        {
+            "type" : "wood",
+            "x" : 1,
+            "y" : 2
+        }, {
+            "type" : "wood",
+            "x" : 1,
+            "y" : 3
+        }, {
+            "type" : "wood",
+            "x" : 1,
+            "y" : 4
+        }, {
+            "type" : "wood",
+            "x" : 1,
+            "y" : 5
+        }, {
+            "type" : "treasure",
+            "x" : 2,
+            "y" : 3
+        },{
+            "type" : "key",
+            "x" : 3,
+            "y" : 3,
+            "key" : 1
+        },{
+            "type" : "arrow",
+            "x" : 4,
+            "y" : 3
+        },{
+            "type" : "arrow",
+            "x" : 5,
+            "y" : 3
+        },{
+            "type" : "arrow",
+            "x" : 5,
+            "y" : 2
+        },{
+            "type" : "wood",
+            "x" : 5,
+            "y" : 1
+        }, {
+            "type" : "wood",
+            "x" : 6,
+            "y" : 1
+        },{
+            "type": "exit",
+            "x": 8,
+            "y": 8
+        },{
+            "type": "zombie_toast",
+            "x": 6,
+            "y": 1
+        },
+        {
+            "type": "wall",
+            "x": 5,
+            "y": 1
+        },
+        {
+            "type": "wall",
+            "x": 6,
+            "y": 0
+        },
+        {
+            "type": "wall",
+            "x": 7,
+            "y": 1
+        },
+        {
+            "type": "boulder",
+            "x": 6,
+            "y": 2
+        }
+    ],
+    "goal-condition": {"goal": "exit"}
+}

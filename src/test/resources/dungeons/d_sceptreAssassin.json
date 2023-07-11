@@ -1,0 +1,52 @@
+{
+    "entities": [
+        {
+            "type" : "player",
+            "x" : 0,
+            "y" : 1
+        }, 
+        {
+            "type" : "wood",
+            "x" : 1,
+            "y" : 1
+        },
+        {
+            "type" : "key",
+            "x" : 2,
+            "y" : 1,
+            "key": 1
+        },
+        {
+            "type" : "sun_stone",
+            "x" : 3,
+            "y" : 1
+        },
+        {
+            "type" : "boulder",
+            "x" : 4,
+            "y" : 1
+        },
+        {
+            "type" : "assassin",
+            "x" : 4,
+            "y" : 2
+        },
+        {
+            "type" : "boulder",
+            "x" : 3,
+            "y" : 2
+        },
+        {
+            "type" : "boulder",
+            "x" : 4,
+            "y" : 3
+        },
+        {
+            "type" : "boulder",
+            "x" : 5,
+            "y" : 2
+        }
+
+    ],
+    "goal-condition": {"goal": "exit"}
+}

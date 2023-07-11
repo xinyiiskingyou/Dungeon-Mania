@@ -1,0 +1,39 @@
+{
+    "entities": [
+        {
+            "type" : "player",
+            "x" : 1,
+            "y" : 1
+        }, {
+            "type" : "boulder",
+            "x" : 2,
+            "y" : 1
+        },
+        {
+            "type" : "switch",
+            "x" : 2,
+            "y" : 2
+        },
+        {
+            "type" : "treasure",
+            "x" : 1,
+            "y" : 0
+        }
+    ],
+    "goal-condition": {
+        "goal": "OR",
+        "subgoals": [
+            {
+                "goal": "OR",
+                "subgoals": [
+                    {
+                        "goal": "treasure"
+                    },
+                    {
+                        "goal": "boulders"
+                    }
+                ]
+            }
+        ]
+    }
+}

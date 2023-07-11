@@ -1,0 +1,152 @@
+
+{
+    "entities": [
+      {
+        "x": 2,
+        "y": 1,
+        "type": "invincibility_potion"
+      },
+      {
+        "x": 7,
+        "y": 4,
+        "type": "invincibility_potion"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "type": "invisibility_potion"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "invisibility_potion"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "player"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "sword"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "bomb"
+      },
+      {
+        "x": 17,
+        "y": 4,
+        "type": "portal",
+        "colour": "BLUE"
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "type": "portal",
+        "colour": "BLUE"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "type": "wall"
+      },
+      {
+        "x": 12,
+        "y": 6,
+        "type": "mercenary"
+      },
+      {
+        "x": 7,
+        "y": 10,
+        "type": "treasure"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "type": "door",
+        "key": 1
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "door",
+        "key": 2
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "key",
+        "key": 1
+      },
+      {
+        "x": 12,
+        "y": 10,
+        "type": "key",
+        "key": 2
+      },{
+
+        "x": 6,
+        "y": 11,
+        "type": "switch"
+      },
+      {
+        "x": 11,
+        "y": 11,
+        "type": "wood"
+      },
+      {
+        "x": 11,
+        "y": 13,
+        "type": "arrow"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "spider"
+      },
+      {
+        "x": 10,
+        "y": 14,
+        "type": "hydra"
+      },
+      {
+        "x": 11,
+        "y": 14,
+        "type": "exit"
+      }, 
+      {
+        "x": 7,
+        "y": 8,
+        "type": "zombie_toast_spawner"
+      }
+    ],
+    "goal-condition": {
+        "goal": "AND",
+        "subgoals": [
+            {
+                "goal": "OR",
+                "subgoals": [
+                    {
+                        "goal": "exit"
+                    },
+                    {
+                        "goal": "treasure"
+                    }
+                ]
+            },
+            {
+                "goal": "AND",
+                "subgoals": [
+                    {
+                        "goal": "boulders"
+                    },
+                    {
+                        "goal": "enemies"
+                    }
+                ]
+            }]
+    }
+}
